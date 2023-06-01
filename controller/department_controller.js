@@ -14,7 +14,7 @@ exports.createDepartment = async(req,res)=>{
  } catch (error) {
     res.json({
         success:false,
-        message: `Something went worng `+ {error},
+        message: `Something went wrong `+ {error},
         data:null
      })
  }
